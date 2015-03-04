@@ -1,0 +1,16 @@
+{
+  "name" : "Dota2 fixtures",
+  "version" : "1.0",
+  "description" : "A simple Dota2 match ticker.",
+  "permissions": [
+    "browsingData",
+	"activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html",
+	 "default_title": "Click here"
+  },
+  "manifest_version": 2
+}
